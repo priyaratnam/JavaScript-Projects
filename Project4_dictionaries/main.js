@@ -19,3 +19,4 @@ function my_Dictionarys(){
     delete Food.Sound;
     document.getElementById("Dictionarys").innerHTML=Food.Sound
 }
+/*I was add the code for undefined and dictionary with sound function*/
