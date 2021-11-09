@@ -31,7 +31,7 @@ function count_Function() {
     }
 }
 function identifi_Funtion() {
-    var X = 10;
-    var Y = "Charlie"; 
+    var X = 7;
+    var Y = "12"; 
     document.getElementById("Iden").innerHTML  = X + Y;
 }
