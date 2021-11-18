@@ -1,4 +1,7 @@
-
+/* This is my sample codes for Not Operator, Logical Operators, Triple Equal Signs,
+Double Equal Signs, Boolean Logic, console.log() Method,
+ Negative Infinity, Infinity, Not a Number and Type Of Operator.
+Those codes are I made it for sample*/
 
 function my_Function() {
     document.getElementById("Sample").innerHTML=5/5;
@@ -10,8 +13,8 @@ function my_Function2() {
     document.getElementById("Sample2").innerHTML=isNaN('008');
 }
 function my_Function3() {
-    document.write(2E214);
-    document.getElementById("Sample3").innerHTML=result
+    document.write(007);
+    document.getElementById("Sample3").innerHTML=result(007);
 }
 function my_Function4() {
     document.write(-3E560);
