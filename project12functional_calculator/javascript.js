@@ -64,7 +64,7 @@ function Update_Display() {
 }
 
 Update_Display();
-const keys = document.querySelector('calculator-keys');
+const keys = document.querySelector('.calculator-keys');
 keys.addEventListener('click', (event) => {
     const { target } = event;
     if (!target.matches('button')) {
