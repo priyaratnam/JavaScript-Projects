@@ -1,0 +1,155 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap');
+@font-face {
+    font-family: 'right_stronglineregular';
+    src: url('../assets/fonts/right_strongline.woff2') format('woff2'),
+         url('../assets/fonts/right_strongline.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background: #000;
+    width: 90%;
+    margin: 0 auto;
+}
+p {
+    font-size: 2em;
+    font-weight: 600;
+    color: #333;
+}
+nav {
+    position: fixed;
+    z-index: 3;
+    top: 30px;
+    left: 5%;
+    background: rgba(255, 255, 255, .67);
+    height: 50px;
+    width: 90%;
+    border-top: 2px solid #777;
+    border-bottom: 2px solid #777;
+    text-align: center;
+    font-family: 'right_stronglineregular', cursive;
+}
+    a {
+        font-size: 2.3em;
+        font-weight: 700;
+        color: #333;
+        text-decoration: none;
+        margin: 0 13px;
+    }
+    a:hover {
+        color: #00f;
+    }
+header {
+    width: 100%;
+    height: 400px; 
+    background-image: radial-gradient(ellipse closest-side, rgba(15, 14, 22, 0.03), rgba(0, 0, 0, .33)), 
+        url(../assets/images/headerBkg.jpg);
+    background-size: cover;
+}
+main {
+    width: 100%;
+    min-height: 1600px;
+    background: #ccc;
+}
+    section {
+        width: calc(100% - 100px);
+        padding: 50px;
+        background: #777;
+    }
+    section:nth-child(even) {
+        background: #aaa;
+    }
+    #stats {
+        width: 600px;
+        height: 300px;
+        background: #bb8;
+        border-radius: 12px;
+        text-align: center;
+        font-size: 2.6em;
+        padding: 13px;
+    }
+    #stats > thead > td {
+        text-align: center;
+        font-weight: 700;
+        background: #222;
+        color: #ccc;
+    }
+    tr {
+        background: #777;
+        color: #fff;
+    }
+    tr:nth-child(even) {
+        background: #ccc;
+        color: #333;
+    }
+    td {
+        padding: 3px 21px;
+    }
+    .thumb {
+        width: 128px;
+        border-radius: 8px;
+    }
+    #work {
+        width: calc(100% - 50px);
+        background:url('../assets/images/headerBkg.jpg');
+        background-size: cover;
+        font-size: 2.1em;
+        padding: 25px;
+    }
+        #funWork {
+            width: 80%;
+            height: 650px;
+            padding: 25px;
+            background: rgba(255, 255, 255, .83);
+            margin: 0 auto;
+            border: 1px solid #333;
+            border-radius: 25px;
+        }
+    #contactForm {
+        width: 40%;
+        padding: 50px;
+        margin: 0 auto;
+        background: #333;
+        border: 1px solid #fff;
+        border-radius: 8px;
+    }
+    #contactForm > input {
+        width: 100%;
+        font-size: 1.4em;
+        font-weight: 600;
+        color: #333;
+    }
+    #contactForm > input[type=submit] {
+        background: #777;
+        color: #fff;
+    }
+    #contactForm > textarea {
+        width: 100%;
+        font-size: 1.4em;
+        font-weight: 600;
+        color: #333;
+    }
+footer {
+    width: 100%;
+    height: 50px;
+    background: #fff;
+    margin-bottom: 100px;
+    text-align: center;
+}
+header{
+    padding: 50px;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+button {
+    background: rgb(185, 12, 12);
+    color: #fff;
+    font-size: 50px;
+    background-origin: padding-box;
+    box-sizing: 50px;
+}
