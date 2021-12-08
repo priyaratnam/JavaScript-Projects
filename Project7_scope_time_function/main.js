@@ -19,3 +19,17 @@ function get_Date() {
 function Age_Function() {
     Age = document.getElementById
 }
+function Time_function() {
+    var Time = new Date().getHours();
+    var Reply;
+    if (Time<12==Time>0){
+        Reply = "This is morning time dear!"
+    }
+    else if(Time>12===Time<18){
+        Reply="It is the afternoon!";
+    }
+    else{
+        Reply="It is evening time.";
+    }
+    document.getElementById("Time_of_day").innerHTML = Reply;
+}
