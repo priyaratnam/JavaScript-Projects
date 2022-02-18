@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment Submission: 14
+    </title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="css/one_page_website.css">
+    <script src="js/one_page_website.js"></script>
+</head>
+<body>
+</style>
+<body>
+
+<h2 style="text-align:center">Lightbox</h2>
+
+<nav id="nav">
+  <a href="home.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="images.html">Images</a>
+  <a href="videos.html">Videos</a>
+  <a href="contact.html">Contact</a>
+  <br>
+  <br>
+</nav>
+
+<div class="row">
+  <div class="column">
+    <img src="css/img/IMG1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow" width="90%" height="250%">
+  </div>
+  <div class="column">
+    <img src="css/img/IMG2.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow" width="90%" height="250%">
+  </div>
+  <div class="column">
+    <img src="css/img/IMG3.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow" width="90%" height="250%">
+  </div>
+  <div class="column">
+    <img src="css/img/IMG4.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow" width="90%" height="250%">
+  </div>
+</div>
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="css/img/IMG1.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+      <img src="css/img/IMG2.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="css/img/IMG3.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+      <img src="css/img/IMG4.jpg" style="width:100%">
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+    <div class="column">
+      <img class="demo" src="css/img/IMG1.jpg" onclick="currentSlide(1)" alt="Nature" width="90%" height="250%">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="css/img/IMG2.jpg" onclick="currentSlide(2)" alt="Snow" width="90%" height="250%">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="css/img/IMG3.jpg" onclick="currentSlide(3)" alt="Mountains" width="90%" height="250%">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="css/img/IMG4.jpg" onclick="currentSlide(4)" alt="Lights" width="90%" height="250%">
+    </div>
+  </div>
+</div>
+    <video autoplay muted loop id="Typing_Video" height="200px" width="100%">
+      <source src="css/img/firstvideo.mov" type="video/mp4">
+    </video>
+</body>
+</html>

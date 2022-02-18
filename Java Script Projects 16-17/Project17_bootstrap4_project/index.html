@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/site.css">
+    <title>Galaxy site</title>
+</head>
+<body>
+    https://www.youtube.com/results?search_query=galaxy+video
+    <nav>
+        <a href="#about">about</a>
+        <a href="#skills">skills</a>
+        <a href="#more">more</a>
+        <a href="#contact">contact</a>
+    </nav>
+    <header>
+        <h1>This is my Galaxy Site</h1>
+        <button input type="Watch more videos" value="Watch" >Watch more videos</a></button>
+    </header>
+    <main>
+        <section id="about"> 
+            <div id="search">
+                <form method="POST" asp-page-handler="Search">
+                    <input id="searchBox" type="text" name="search" placeholder="galaxy search...">
+                </form>
+            </div>
+        <section id="skills">
+
+            <table id="stats">
+                <thead>
+                    <td>Sample images</td>
+                    <td>Likes</td>
+                    <td>Loves</td>
+                </thead>
+                <tr>
+                    <td>
+                        <img class="thumb" src="./assets/images/pic1.jpg" alt="test">
+                    </td>
+                    <td>2</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>
+                        <img class="thumb" src="./assets/images/pic2.jpg" alt="test">
+                    </td>
+                    <td>5</td>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <td>
+                        <img class="thumb" src="./assets/images/pic2.jpg" alt="test">
+                    </td>
+                    <td>8</td>
+                    <td>9</td>
+                </tr>
+            </table>
+
+        </section>
+        <section id="work">
+            <div id="funWork">
+                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt facere, sunt facilis voluptatibus suscipit delectus voluptates. Quos odit blanditiis voluptate hic voluptatum, placeat, aliquam quas totam nam, nemo debitis aliquid.</span>
+                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel totam accusamus ipsam consequatur distinctio voluptatem ut nemo sit. Quidem consectetur accusamus aliquid exercitationem dolore amet dolores quasi obcaecati laudantium voluptas?</span>
+                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem nihil excepturi consequuntur nam deleniti, ratione possimus mollitia voluptate cumque quo, beatae dolorum doloribus. Voluptates, ducimus eaque quia maxime velit veritatis.</span>
+            </div>
+        </section>
+        <section id="contact">
+            <form id="contactForm" action="email.php" method="post">
+                <select name="reason">
+                    <option value="0" selected>select option...</option>
+                    <option value="1">HD galaxy</option>
+                    <option value="2">MB galaxy</option>
+                    <option value="3">KB galaxy</option>
+                </select>
+                <input name="name" type="text" placeholder="your name" required><br>
+                <input name="phone" type="phone" placeholder="your phone" required><br>
+                <input name="color" type="color"><br>
+                <input name="password" type="password" placeholder="password"><br>
+                <input name="email" type="email" placeholder="your email" required><br>
+                <textarea name="message" cols="40" rows="8" maxlength="250"
+                    placeholder="your message here..." required></textarea><br>
+                <input type="submit" value="send email">
+            </form>
+        </section>
+    </main>
+    <footer></footer>
+    
+</body>
+</html>
